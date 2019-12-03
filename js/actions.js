@@ -6,7 +6,7 @@ $('#Entrar').click ( function(){
 
 	if (usuario == usuario && contrasena == "admin"){
 
-		window.location = './admin.html';	
+		window.location = './pages/admin.html';	
 	}
 	else if (usuario == "" && contrasena =="" || contrasena != 'admin'){
 
@@ -16,15 +16,15 @@ $('#Entrar').click ( function(){
 });
 
 $('#Contactos').click (function(){
-	window.location='./Contactos.html';
+	window.location='./pages/Contactos.html';
 });
 
 $('#Productos').click (function(){
-	window.location='./Productos.html';
+	window.location='./pages/Productos.html';
 });
 
 $('#Ayuda').click (function(){
-	window.location='./Ayuda.html';
+	window.location='./pages/Ayuda.html';
 });
 
 $('#Salir').click (function(){
